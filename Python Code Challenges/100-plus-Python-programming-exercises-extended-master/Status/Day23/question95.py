@@ -1,0 +1,5 @@
+n = int(input())
+l = map(int, input().split())
+l = list(set(list(l)))
+l = sorted(l)
+print(l[len(l)-2])
